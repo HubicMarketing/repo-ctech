@@ -1,0 +1,101 @@
+/* iPAD Landscape */
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: landscape)
+and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+/* iPAD Landscape */
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: landscape)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+/* iPad 1-4 e Mini Portrait */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait){
+
+}
+/* Retina iPad in portrait */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 2){
+
+}
+/*Portrait and landscape iPad Pro*/
+@media only screen
+and (min-device-width: 1024px)
+and (max-device-width: 1366px)
+and (-webkit-min-device-pixel-ratio: 2){
+
+}
+/*Portrait iPad Pro*/
+@media only screen
+and (min-device-width: 1024px)
+and (max-device-width: 1366px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait){
+
+}
+/*Landscape iPad Pro*/
+@media only screen
+and (min-device-width: 1024px)
+and (max-device-width: 1366px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape){
+
+}
+@media screen and (min-width: 768px){
+
+}
+@media (max-width: 767px) and (orientation:portrait) {
+
+}
+@media (max-width: 767px) and (orientation:landscape) {
+
+}
+/* iPhone X in portrait & landscape */
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) {
+
+}
+/* iPhone X in landscape */
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : landscape) {
+
+}
+/* iPhone XR portrait and landscape */
+@media only screen
+and (device-width : 414px)
+and (device-height : 896px)
+and (-webkit-device-pixel-ratio : 2) {
+
+}
+/* iPhone XR in landscape */
+@media only screen
+and (device-width : 414px)
+and (device-height : 896px)
+and (-webkit-device-pixel-ratio : 2)
+and (orientation : landscape) {
+
+}
+/* iPhone XR portrait */
+@media only screen
+and (device-width : 414px)
+and (device-height : 896px)
+and (-webkit-device-pixel-ratio : 2)
+and (orientation : portrait){
+
+}
