@@ -55,7 +55,6 @@ a.cta{
   padding: 20px;
   font-size: 0.6em;
   text-transform: uppercase;
-
   /* background-color: #f87a13;
   background: linear-gradient(to bottom,#f87a13 0%,#f86313 100%) repeat scroll 0% 0% padding-box transparent; */
   border-radius: 50px;
@@ -71,6 +70,10 @@ a.cta{
   font-size: 0.8em;
   line-height: 1.2;
   letter-spacing: 0;
+}
+.home .entry-content a.cta{
+  display:table;
+  margin:0 auto;
 }
 .company_info a.cta{
   border: 3px solid;
