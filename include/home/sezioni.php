@@ -2,7 +2,7 @@
   <?php if(is_front_page()) { ?>
   <div class="heading_wrapper">
     <h2 class="animated wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s">Scopri le nostre soluzioni di noleggio e vendita</h2>
-    <a class="animated wow fadeInRight" data-wow-duration="0.6s" data-wow-delay="0.6s" href="#form" class="cta"><strong>Contattaci per <br> maggiori informazioni</strong></a>
+    <a class="cta animated wow fadeInRight" data-wow-duration="0.6s" data-wow-delay="0.6s" href="#form"><strong>Contattaci per <br> maggiori informazioni</strong></a>
   </div>
   <?php } ?>
 <div class="brand_container row">
