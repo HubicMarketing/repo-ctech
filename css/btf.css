@@ -9,12 +9,19 @@ div[role="form"]{
   text-align: center;
   padding-bottom:0;
 }
+.home #soluzioni .heading_wrapper{
+  background: #1B3D42;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
 #soluzioni h2{
   margin: 0 0 50px;
   color: #1B3D42;
 }
 .home #soluzioni h2{
   margin: 50px 0;
+  color: #fff;
 }
 #soluzioni h3{
   font-family: 'Roboto';

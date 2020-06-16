@@ -1,5 +1,10 @@
 <section id="soluzioni">
-  <?php if(is_front_page()) { ?><h2>Scopri le nostre soluzioni di noleggio e vendita</h2><?php } ?>
+  <?php if(is_front_page()) { ?>
+  <div class="heading_wrapper">
+    <h2>Scopri le nostre soluzioni di noleggio e vendita</h2>
+    <a href="#form" class="cta">Contattaci per <br> maggiori <strong>informazioni</strong></a>
+  </div>
+  <?php } ?>
 <div class="brand_container row">
  <?php
  $args = array(
