@@ -100,6 +100,7 @@ a.cta{
 }
 #soluzioni .heading_wrapper a.cta{
   box-shadow: 0 0 10px 3px transparent;
+  font-size:1.8rem;
 }
 a.cta:hover{
   /* color: #000 !important; */
@@ -107,6 +108,10 @@ a.cta:hover{
   box-shadow: 0 0 10px 3px #fff;
   text-shadow: 0 -1px 1px rgba(255,255,255,.3);
   /* background: linear-gradient(to bottom,#ccc 0%,#000 100%) repeat scroll 0% 0% padding-box transparent; */
+}
+#soluzioni .heading_wrapper a.cta:hover{
+  box-shadow: 0 0 10px 3px #fff;
+  background: #000;
 }
 a.cta strong,
 a.cta:hover strong{
