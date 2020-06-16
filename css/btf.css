@@ -516,7 +516,7 @@ body .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.ali
 
 }
 @media screen and (max-width: 1440px) and (min-width: 768px){
-  .home article .post-inner .entry-content a.cta{
+  /* .home article .post-inner .entry-content a.cta{
 		text-align: center;
     display: table;
     width: 60% !important;
@@ -529,7 +529,7 @@ body .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.ali
   .home article .post-inner .entry-content a.cta:hover{
     background: #1B3D42;
     color: #fff;
-  }
+  } */
 }
 @media screen and (min-width: 1200px){
 
@@ -544,6 +544,20 @@ body .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.ali
 
 }
 @media screen and (min-width: 768px){
+  .home article .post-inner .entry-content a.cta{
+		text-align: center;
+    display: table;
+    width: 60% !important;
+    margin: 0 auto;
+    border-radius: 0;
+    background: #fff;
+    border: 1px solid;
+    color: #1B3D42;
+	}
+  .home article .post-inner .entry-content a.cta:hover{
+    background: #1B3D42;
+    color: #fff;
+  }
   .home #soluzioni h2{
     padding: 0 8rem 0 0;
   }
