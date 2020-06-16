@@ -14,6 +14,8 @@ div[role="form"]{
   display:flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
+  padding:5rem;
 }
 #soluzioni h2{
   margin: 0 0 50px;
@@ -534,7 +536,12 @@ body .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.ali
 
 }
 @media screen and (min-width: 768px){
-
+  .home #soluzioni h2{
+    padding: 0 8rem 0 0;
+  }
+  .home #soluzioni h2 a{
+    color: #fff !important;
+  }
   .single-product .related.products ul{
     width: 100%;
     max-width: 100%;
