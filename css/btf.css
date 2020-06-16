@@ -98,7 +98,9 @@ a.cta{
 .posted_in a{
   font-weight: bold;
 }
-
+#soluzioni .heading_wrapper a.cta{
+  box-shadow: 0 0 10px 3px transparent;
+}
 a.cta:hover{
   /* color: #000 !important; */
   background: #1B3D42;
@@ -541,6 +543,7 @@ body .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.ali
   }
   .home #soluzioni h2 a{
     color: #fff !important;
+    font-size: 2rem;
   }
   .single-product .related.products ul{
     width: 100%;
