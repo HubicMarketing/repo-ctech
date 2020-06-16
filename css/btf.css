@@ -552,6 +552,9 @@ body .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.ali
   body.home #site-content .post-inner .entry-content{
     font-size: 2.2rem;
   }
+  body.home #site-content .post-inner .entry-content p{
+    text-align:center;
+  }
   #soluzioni .media{
     display: table;
     width:100%;
