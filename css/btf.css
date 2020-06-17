@@ -450,7 +450,7 @@ form div[data-id^="group"]{
   padding:0;
 }
 .search-results #site-content hr.post-separator{
-  margin:30px 0;
+  margin:30px auto;
 }
 .footer-inner h5{
   margin-top:0;
