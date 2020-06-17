@@ -31,12 +31,19 @@
 			
 			<?php if ( is_search()) { 				
 				global $product;
-				$product_img = $product->get_image(); 
-				echo $product_img;
-			} ?>
+				$product_name = $product->get_name();
+				$product_img = $product->get_image();
+				$product_link = get_permalink( $product->get_id() ); ?>
+				<figure>
+				<?php echo $product_img; ?>
+					<figcaption>
+						<a class="button" title="Vai a <?php echo $product_name; ?>" href="<?php echo $product_link; ?>"><?php _('Vai al prodotto','twentytwenty-child') ?></a>
+					</figcaption>
+				</figure>
+			<?php } ?>
 
 			<?php
-			if ( is_search() || ! is_singular() && 'summary' === get_theme_mod( 'blog_content', 'full' ) ) {
+			if ( ! is_singular() && 'summary' === get_theme_mod( 'blog_content', 'full' ) ) {
 				the_excerpt();
 			} else {
 				if(is_page('contatti')){
