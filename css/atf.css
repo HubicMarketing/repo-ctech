@@ -344,6 +344,10 @@ text-decoration: none !important;
 	padding:0 20px;
 }
 
+.color-accent{
+	color:#1B3D42 !important;
+}
+
 /** RESPONSIVE **/
 @media screen and (min-width: 1441px){
 	.single-product .entry-content .woocommerce{
