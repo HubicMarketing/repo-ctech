@@ -140,6 +140,7 @@ ul.primary-menu li a:hover{
   color: #52C3B3;
 }
 .contattaci.visible{
+	padding: 15px 0;
 	margin-bottom: 0;
   -webkit-transform: translate(0,0);
     -moz-transform: translate(0,0);
