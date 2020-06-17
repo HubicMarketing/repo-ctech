@@ -78,24 +78,36 @@ get_header();
 
 		$i = 0;
 
-		while ( have_posts() ) {
-			$i++;
-			if ( $i > 1 ) {
-				echo '<hr class="post-separator styled-separator is-style-wide section-inner" aria-hidden="true" />';
-			}
+		if(is_search()) { ?>
+			<div class="row">
+		<?php } 		
 
-			if(is_search()) { ?>
-			<div class="col-lg-6">
-			<?php } 
+				while ( have_posts() ) {
+					$i++;
 
-			the_post();
-			get_template_part( 'template-parts/content', get_post_type() );
-			
-			if(is_search()) { ?>
+					if(!is_search()) {
+						if ( $i > 1 ) {
+							echo '<hr class="post-separator styled-separator is-style-wide section-inner" aria-hidden="true" />';
+						}
+					}
+
+					if(is_search()) { ?>
+					<div class="col-lg-6">
+					<?php } 
+
+					the_post();
+					get_template_part( 'template-parts/content', get_post_type() );
+					
+					if(is_search()) { ?>
+					</div>
+					<?php } 
+
+				}
+
+		if(is_search()) { ?>
 			</div>
-			<?php } 
+		<?php } 	
 
-		}
 	} elseif ( is_search() ) {
 		?>
 
