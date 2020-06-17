@@ -37,7 +37,7 @@
 				<figure>
 				<?php echo $product_img; ?>
 					<figcaption>
-						<a class="button" title="Vai a <?php echo $product_name; ?>" href="<?php echo $product_link; ?>"><?php _('Vai al prodotto','twentytwenty-child') ?></a>
+						<a class="button" title="Vai a <?php echo $product_name; ?>" href="<?php echo $product_link; ?>"><?php __('Vai al prodotto','twentytwenty-child') ?></a>
 					</figcaption>
 				</figure>
 			<?php } ?>
