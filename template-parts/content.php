@@ -36,7 +36,7 @@
 				echo $product_img;
 				var_dump($product_img);
 				?>
-				<?php the_post_thumbnail(); ?>
+				<?php // the_post_thumbnail(); ?>
 			<?php } ?>
 
 			<?php
