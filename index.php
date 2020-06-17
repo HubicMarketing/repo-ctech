@@ -79,6 +79,7 @@ get_header();
 		$i = 0;
 
 		if(is_search()) { ?>
+		<div class="container">
 			<div class="row">
 		<?php } 		
 
@@ -105,7 +106,8 @@ get_header();
 				}
 
 		if(is_search()) { ?>
-			</div>
+			</div><!--row-->
+		</div><!--container-->
 		<?php } 	
 
 	} elseif ( is_search() ) {
