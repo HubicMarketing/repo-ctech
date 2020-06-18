@@ -415,4 +415,13 @@ function translate_woocommerce_strings( $translated, $untranslated, $domain ) {
    return $translated;
 
 }
+
+// LIMIT POST SEARCH TO PRODUCTS
+function searchfilter($query) {
+    if ($query->is_search && !is_admin() && $query->is_main_query() ) {
+        $query->set('post_type', 'product');
+    }
+return $query;
+} 
+add_filter('pre_get_posts','searchfilter');
 ?>
