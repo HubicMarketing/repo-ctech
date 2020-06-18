@@ -530,6 +530,12 @@ and (orientation: portrait){
 	.primary-menu a{
 		text-transform:none;
 	}
+	.page article .post-inner .entry-content h2{
+		text-align:center;
+	}
+	.page article .post-inner .entry-content a.cta{
+		    padding: 35px 100px;
+	}
 }
 /*Landscape iPad Pro*/
 @media only screen
