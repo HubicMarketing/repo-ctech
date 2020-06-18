@@ -1,4 +1,4 @@
-a,button,input[type="submit"],input.wpcf7-submit,.cover,.trans, i,#site-header, #site-header .header-inner{
+a,button,select,input[type="text"],input[type="submit"],input.wpcf7-submit,.cover,.trans, i,#site-header, #site-header .header-inner{
 	transition: all ease-in-out 0.2s !important;
 	 -webkit-transition: all ease-in-out 0.2s !important;
 	 -o-transition: all ease-in-out 0.2s !important;
