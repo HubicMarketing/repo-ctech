@@ -187,15 +187,17 @@ header.entry-header{
 	 text-transform: uppercase;
  }
  .contattaci .contatti_icon{
-	 display: inline;
+   display: inline;
    height: 15px;
    position: relative;
    bottom: 1.5px;
    margin: 0 0 0 5px;
  }
-
  .single-product .post-inner{
 	 padding-top:0;
+ }
+.woocommerce-breadcrumb{
+	margin: 6rem 0 0;
  }
  #breadcrumbs a,
  .woocommerce-breadcrumb a{
@@ -477,15 +479,19 @@ and (min-device-width: 768px)
 and (max-device-width: 1024px)
 and (orientation: landscape)
 and (-webkit-min-device-pixel-ratio: 1) {
-
+.woocommerce-breadcrumb{
+		margin: 10rem 0 0;
+	}
 }
-/* iPAD Landscape */
+/* iPAD Retina Landscape */
 @media only screen
 and (min-device-width: 768px)
 and (max-device-width: 1024px)
 and (orientation: landscape)
 and (-webkit-min-device-pixel-ratio: 2) {
-
+	.woocommerce-breadcrumb{
+		margin: 10rem 0 0;
+	}
 
 }
 /* iPad 1-4 e Mini Portrait */
@@ -505,6 +511,9 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : portrait)
 and (-webkit-min-device-pixel-ratio: 2){
+	.woocommerce-breadcrumb{
+		margin: 12rem 0 0;
+	}
 	.tp-caption.cta{
 		font-size: 4rem !important;
     	padding: 35px 50px !important;
@@ -541,6 +550,9 @@ and (min-device-width: 1024px)
 and (max-device-width: 1366px)
 and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: portrait){
+	.woocommerce-breadcrumb{
+		margin: 12rem 0 0;
+	}
 	.tp-caption.cta{
 		font-size: 4rem !important;
     	padding: 35px 50px !important;
@@ -570,7 +582,9 @@ and (min-device-width: 1024px)
 and (max-device-width: 1366px)
 and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: landscape){
-
+.woocommerce-breadcrumb{
+		margin: 10rem 0 0;
+	}
 }
 @media screen and (min-width: 768px){
 
