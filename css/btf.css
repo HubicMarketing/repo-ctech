@@ -518,7 +518,7 @@ body .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.ali
 
 #mailchimp-top-bar.mctb-medium .mctb-button:hover{
   text-decoration:none !important;
-  background:#000;
+  background:#000 !important;
 }
 
 /** RESPONSIVE **/
