@@ -305,13 +305,14 @@ remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_singl
 add_action( 'woocommerce_product_thumbnails', 'woocommerce_template_single_meta', 40 );
 
 
-add_action( 'woocommerce_before_single_product_summary', 'add_breadcrumbs', 15 );
-function add_breadcrumbs() {
-	if ( function_exists('yoast_breadcrumb') ) {
-	  yoast_breadcrumb( '<p id="breadcrumbs">','</p>' );
-	}
-}
-add_action( 'woocommerce_after_single_product_summary', 'add_gallery' );
+// add_action( 'woocommerce_before_single_product_summary', 'add_breadcrumbs', 15 );
+// function add_breadcrumbs() {
+// 	if ( function_exists('yoast_breadcrumb') ) {
+// 	  yoast_breadcrumb( '<p id="breadcrumbs">','</p>' );
+// 	}
+// }
+// add_action( 'woocommerce_after_single_product_summary', 'add_gallery' );
+
 function add_gallery() {
 	include( get_stylesheet_directory() . '/include/prodotti/gallery.php');
 	// include( get_stylesheet_directory() . '/include/prodotti/vantaggi.php');

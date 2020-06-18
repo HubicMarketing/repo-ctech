@@ -197,10 +197,12 @@ header.entry-header{
  .single-product .post-inner{
 	 padding-top:0;
  }
- #breadcrumbs a{
+ #breadcrumbs a,
+ .woocommerce-breadcrumb a{
 	 color: #52C3B3;
  }
- #breadcrumbs a:hover{
+ #breadcrumbs a:hover,
+ .woocommerce-breadcrumb a:hover{
 	color: #1B3D42;
  }
  .search #site-content{
@@ -520,7 +522,10 @@ and (-webkit-min-device-pixel-ratio: 2){
 		width: 100% !important;
 	}
 	.woocommerce ul li.product span.price{
-		padding:10px;
+		padding:15px;
+	}
+	.archive ul.products li h2.woocommerce-loop-product__title{
+		    height: 74px;
 	}
 }
 /*Portrait and landscape iPad Pro*/
@@ -553,7 +558,10 @@ and (orientation: portrait){
 		width: 100% !important;
 	}
 	.woocommerce ul li.product span.price{
-		padding:10px;
+		padding:15px;
+	}
+	.archive ul.products li h2.woocommerce-loop-product__title{
+		    height: 74px;
 	}
 }
 /*Landscape iPad Pro*/
