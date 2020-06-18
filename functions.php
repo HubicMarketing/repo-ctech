@@ -424,4 +424,10 @@ function searchfilter($query) {
 return $query;
 } 
 add_filter('pre_get_posts','searchfilter');
+
+// ADD MAILCHIMP TAG
+add_filter( 'mc4wp_subscriber_data', function(MC4WP_MailChimp_Subscriber $subscriber) {
+	$subscriber->tags[] = 'Sito web';
+	return $subscriber;
+ });
 ?>
