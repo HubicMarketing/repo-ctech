@@ -309,6 +309,7 @@ header.entry-header{
 }
 .search .post-inner .entry-content figcaption{
 	text-align:center;
+	margin-top:0;
 }
 .woocommerce ul li.product a.button,
 .search .post-inner .entry-content figcaption a.button{
@@ -332,12 +333,17 @@ header.entry-header{
 	line-height: 1.2;
 	letter-spacing: 0;
 }
-.woocommerce ul li.product a.button:hover{
+.search .post-inner .entry-content figcaption a.button{
+	margin-top:0;
+	width:auto;
+}
+.woocommerce ul li.product a.button:hover,
+.search .post-inner .entry-content figcaption a.button:hover{
 	background: #1B3D42;
-box-shadow: 0 0 10px 3px #fff;
-text-shadow: 0 -1px 1px rgba(255,255,255,.3);
-text-decoration: none !important;
-/* background: linear-gradient(to bottom,#ccc 0%,#000 100%) repeat scroll 0% 0% padding-box transparent; */
+	box-shadow: 0 0 10px 3px #fff;
+	text-shadow: 0 -1px 1px rgba(255,255,255,.3);
+	text-decoration: none !important;
+	/* background: linear-gradient(to bottom,#ccc 0%,#000 100%) repeat scroll 0% 0% padding-box transparent; */
 }
 
 .primary-menu a:focus, .primary-menu .current_page_ancestor, .current-menu-item a{
