@@ -534,7 +534,9 @@ and (orientation: portrait){
 		text-align:center;
 	}
 	.page article .post-inner .entry-content a.cta{
-		    padding: 35px 100px;
+		font-size: 3.5rem;
+		margin: 0 auto 8rem;
+		width: 100% !important;
 	}
 }
 /*Landscape iPad Pro*/
