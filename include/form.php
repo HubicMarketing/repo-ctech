@@ -12,13 +12,13 @@
 <?php } ?>
   <div class="container">
     <div class="row">
-    <div class="col-lg-7 animated wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.5s">
+    <div class="col-lg-7 col-md-12 col-sm-12 col-12 animated wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.5s">
       <img class="arrow" src="<?php bloginfo('wpurl'); ?>/images/down-arrow.png" />
       <h3>Contattaci compilando il form</h3>
       <span class="mandatory">I campi contrassegnati da * sono obbligatori</span>
     <?php echo do_shortcode('[contact-form-7 id="6" title="Form Contatti"]'); ?>
     </div>
-    <div class="col-lg-5 animated wow fadeInUp" data-wow-duration="0.7s" data-wow-delay="0.7s">
+    <div class="col-lg-5 col-md-12 col-sm-12 col-12 animated wow fadeInUp" data-wow-duration="0.7s" data-wow-delay="0.7s">
       <img class="arrow" src="<?php bloginfo('wpurl'); ?>/images/down-arrow.png" />
       <h3>Usa i nostri riferimenti</h3>
           <figure>

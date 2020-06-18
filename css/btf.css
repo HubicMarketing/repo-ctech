@@ -684,11 +684,11 @@ and (orientation: portrait){
     font-size: 7rem !important;
     text-transform: uppercase;
   }
-  .tp-caption.cta{
+  /* .tp-caption.cta{
     font-size: 6rem !important;
     padding: 60px 55px !important;
     margin-top: 20px !important;
-  }
+  } */
   #soluzioni button.cta{
     font-size: 1.4em;
     padding-top: 25px;
