@@ -483,13 +483,8 @@ and (min-device-width: 768px)
 and (max-device-width: 1024px)
 and (orientation: landscape)
 and (-webkit-min-device-pixel-ratio: 2) {
-	.page:not(.page-id-27) article .post-inner .entry-content p{
-	   max-width: 100rem !important;
-	}
-	#form h2{
-	  width: 80%;
-      text-align: center;
-	}
+
+
 }
 /* iPad 1-4 e Mini Portrait */
 @media only screen
@@ -539,13 +534,7 @@ and (min-device-width: 1024px)
 and (max-device-width: 1366px)
 and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: landscape){
-	.page:not(.page-id-27) article .post-inner .entry-content p{
-	   max-width: 100rem !important;
-	}
-	#form h2{
-	  width: 80%;
-      text-align: center;
-	}
+
 }
 @media screen and (min-width: 768px){
 

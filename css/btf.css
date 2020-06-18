@@ -654,7 +654,13 @@ and (min-device-width: 768px)
 and (max-device-width: 1024px)
 and (orientation: landscape)
 and (-webkit-min-device-pixel-ratio: 1) {
-
+	.page:not(.page-id-27) article .post-inner .entry-content p{
+	   max-width: 100rem !important;
+	}
+  	#form h2{
+	  width: 80%;
+      text-align: center;
+	}
 }
 
 /* iPad 1-4 e Mini Portrait */
@@ -680,6 +686,13 @@ and (max-device-width: 1366px)
 and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: portrait){
 
+	.page:not(.page-id-27) article .post-inner .entry-content p{
+	   max-width: 100rem !important;
+	}
+  	#form h2{
+	  width: 80%;
+      text-align: center;
+	}
   .tp-caption:not(.cta){
     font-size: 7rem !important;
     text-transform: uppercase;
@@ -700,9 +713,7 @@ and (orientation: portrait){
   .post-inner p{
     font-size: 1.4em;
   }
-  #form h2{
-    width: 80rem;
-  }
+
   #economia_circolare .translated p{
     font-size: 1.6em;
   }
@@ -721,6 +732,13 @@ and (min-device-width: 1024px)
 and (max-device-width: 1366px)
 and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: landscape){
+  .page:not(.page-id-27) article .post-inner .entry-content p{
+	   max-width: 100rem !important;
+	}
+  	#form h2{
+	  width: 80%;
+      text-align: center;
+	}
   .home .screen-height{
     min-height: inherit;
   }
@@ -765,6 +783,13 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : portrait)
 and (-webkit-min-device-pixel-ratio: 2){
+  	.page:not(.page-id-27) article .post-inner .entry-content p{
+	   max-width: 100rem !important;
+	}
+  	#form h2{
+	  width: 80%;
+      text-align: center;
+	}
   .tp-mask-wrap .tp-caption:not(.cta){
     padding-left: 60px !important;
   }
@@ -807,6 +832,13 @@ and (min-device-width: 768px)
 and (max-device-width: 1024px)
 and (orientation: landscape)
 and (-webkit-min-device-pixel-ratio: 2) {
+  	.page:not(.page-id-27) article .post-inner .entry-content p{
+	   max-width: 100rem !important;
+	}
+  	#form h2{
+	  width: 80%;
+      text-align: center;
+	}
   .tp-caption:not(.cta){
     font-size: 6rem !important;
   }
