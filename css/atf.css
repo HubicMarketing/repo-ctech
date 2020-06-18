@@ -362,6 +362,15 @@ header.entry-header{
 .search-no-results .archive-header{
 	padding: 8rem 0 3rem;
 }
+.search-no-results .no-search-results-form {
+    padding-top: 0;
+}
+.search-no-results .no-search-results-form input{
+	background: #397F6D;
+}
+.search-no-results .no-search-results-form input:hover{
+	background: #1B3D42;
+}
 
 /** RESPONSIVE **/
 @media screen and (min-width: 1441px){
