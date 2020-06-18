@@ -644,10 +644,14 @@ and (-webkit-min-device-pixel-ratio: 1) {
 	.page:not(.page-id-27) article .post-inner .entry-content p{
 	   max-width: 100rem !important;
 	}
-  	#form h2{
+  #form h2{
 	  width: 80%;
       text-align: center;
 	}
+  .home #soluzioni h2{
+    padding:0;
+    margin-top:0;
+  }
 }
 
 /* iPad 1-4 e Mini Portrait */
@@ -675,6 +679,9 @@ and (orientation: portrait){
   .page-id-225 article .post-inner .entry-content p{
     text-align:center;
   }
+  .related.products h2{
+      height:74px;
+    }
 	.home #soluzioni h2{
 		padding:0;
 	}
@@ -798,6 +805,9 @@ and (-webkit-min-device-pixel-ratio: 2){
       .page-id-225 article .post-inner .entry-content p{
         text-align:center;
       }
+    .related.products h2{
+      height:74px;
+    }
   	#form h2{
 	  width: 80%;
       text-align: center;
@@ -845,9 +855,13 @@ and (min-device-width: 768px)
 and (max-device-width: 1024px)
 and (orientation: landscape)
 and (-webkit-min-device-pixel-ratio: 2) {
-  	.page:not(.page-id-27) article .post-inner .entry-content p{
+  .page:not(.page-id-27) article .post-inner .entry-content p{
 	   max-width: 100rem !important;
-	}
+	}  
+  .home #soluzioni h2{
+    margin-top:0;
+    padding:0;
+  }
   	#form h2{
 	  width: 80%;
       text-align: center;
