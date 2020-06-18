@@ -527,20 +527,7 @@ body .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.ali
 
 }
 @media screen and (max-width: 1440px) and (min-width: 768px){
-  /* .home article .post-inner .entry-content a.cta{
-		text-align: center;
-    display: table;
-    width: 60% !important;
-    margin: 0 auto;
-    border-radius: 0;
-    background: #fff;
-    border: 1px solid;
-    color: #1B3D42;
-	}
-  .home article .post-inner .entry-content a.cta:hover{
-    background: #1B3D42;
-    color: #fff;
-  } */
+
 }
 @media screen and (min-width: 1200px){
 
@@ -685,7 +672,10 @@ and (min-device-width: 1024px)
 and (max-device-width: 1366px)
 and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: portrait){
-
+  #soluzioni h3{
+    font-size: 3.5em;
+    text-transform:none;
+  }
 	.page:not(.page-id-27) article .post-inner .entry-content p{
 	   max-width: 100rem !important;
 	}

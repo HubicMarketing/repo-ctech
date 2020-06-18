@@ -527,6 +527,9 @@ and (orientation: portrait){
     	padding: 35px 50px !important;
 		text-transform: uppercase;
 	}
+	.primary-menu a{
+		text-transform:none;
+	}
 }
 /*Landscape iPad Pro*/
 @media only screen
