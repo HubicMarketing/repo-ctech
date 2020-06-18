@@ -655,6 +655,9 @@ and (-webkit-min-device-pixel-ratio: 1) {
     padding:0;
     margin: 0 0 2rem;
   }
+  .related.products h2{
+      height:74px;
+    }
 }
 
 /* iPad 1-4 e Mini Portrait */
@@ -871,6 +874,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
 	  width: 80%;
       text-align: center;
 	}
+  .related.products h2{
+      height:74px;
+    }
   .tp-caption:not(.cta){
     font-size: 6rem !important;
   }

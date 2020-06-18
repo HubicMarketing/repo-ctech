@@ -490,6 +490,9 @@ and (-webkit-min-device-pixel-ratio: 1) {
 		margin: 0 auto 8rem;
 		width: 100% !important;
 	}
+	.archive ul.products li h2.woocommerce-loop-product__title{
+		height: 74px;
+	}
 }
 /* iPAD Retina Landscape */
 @media only screen
@@ -507,6 +510,12 @@ and (-webkit-min-device-pixel-ratio: 2) {
 		font-size: 3.5rem;
 		margin: 0 auto 8rem;
 		width: 100% !important;
+	}
+	 .page-id-225 article .post-inner .entry-content p{
+        text-align:center;
+    }
+	.archive ul.products li h2.woocommerce-loop-product__title{
+		height: 74px;
 	}
 }
 /* iPad 1-4 e Mini Portrait */
@@ -549,8 +558,11 @@ and (-webkit-min-device-pixel-ratio: 2){
 		padding:15px;
 	}
 	.archive ul.products li h2.woocommerce-loop-product__title{
-		    height: 74px;
+		height: 74px;
 	}
+	 .page-id-225 article .post-inner .entry-content p{
+        text-align:center;
+      }
 }
 /*Portrait and landscape iPad Pro*/
 @media only screen
@@ -588,7 +600,7 @@ and (orientation: portrait){
 		padding:15px;
 	}
 	.archive ul.products li h2.woocommerce-loop-product__title{
-		    height: 74px;
+		height: 74px;
 	}
 }
 /*Landscape iPad Pro*/
@@ -597,7 +609,7 @@ and (min-device-width: 1024px)
 and (max-device-width: 1366px)
 and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: landscape){
-.woocommerce-breadcrumb{
+	.woocommerce-breadcrumb{
 		margin: 10rem 0 0;
 	}
 }
