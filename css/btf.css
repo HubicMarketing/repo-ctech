@@ -516,6 +516,11 @@ body .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.ali
   padding-bottom: 100px;
 }
 
+#mailchimp-top-bar.mctb-medium .mctb-button:hover{
+  text-decoration:none !important;
+  background:#000;
+}
+
 /** RESPONSIVE **/
 @media screen and (min-width: 1441px){
 
