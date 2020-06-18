@@ -31,16 +31,18 @@
 			
 			<?php if ( is_search()) { 				
 				global $product;
-				$product_name = $product->get_name();
-				$product_img = $product->get_image();
-				$product_link = get_permalink( $product->get_id() ); ?>
-				<figure>
-				<a title="Vai a <?php echo $product_name; ?>" href="<?php echo $product_link; ?>"><?php echo $product_img; ?></a>
-					<figcaption>
-						<a class="button" title="Vai a <?php echo $product_name; ?>" href="<?php echo $product_link; ?>">Vedi prodotto</a>
-					</figcaption>
-				</figure>
-			<?php } ?>
+				if($product) {
+					$product_name = $product->get_name();
+					$product_img = $product->get_image();
+					$product_link = get_permalink( $product->get_id() ); ?>
+					<figure>
+					<a title="Vai a <?php echo $product_name; ?>" href="<?php echo $product_link; ?>"><?php echo $product_img; ?></a>
+						<figcaption>
+							<a class="button" title="Vai a <?php echo $product_name; ?>" href="<?php echo $product_link; ?>">Vedi prodotto</a>
+						</figcaption>
+					</figure>
+				<?php } 
+			} ?>
 
 			<?php
 			if ( ! is_singular() && 'summary' === get_theme_mod( 'blog_content', 'full' ) ) {
