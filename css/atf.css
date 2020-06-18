@@ -402,6 +402,9 @@ header.entry-header{
 
 }
 @media screen and (min-width: 768px){
+	.search h2.entry-title{
+		font-size:4rem;
+	}
 	.single-product .entry-title{
 		font-size: 6rem;
 	}

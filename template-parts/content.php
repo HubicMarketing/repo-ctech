@@ -35,7 +35,7 @@
 				$product_img = $product->get_image();
 				$product_link = get_permalink( $product->get_id() ); ?>
 				<figure>
-				<?php echo $product_img; ?>
+				<a class="button" title="Vai a <?php echo $product_name; ?>" href="<?php echo $product_link; ?>"><?php echo $product_img; ?></a>
 					<figcaption>
 						<a class="button" title="Vai a <?php echo $product_name; ?>" href="<?php echo $product_link; ?>">Vedi prodotto</a>
 					</figcaption>

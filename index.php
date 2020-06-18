@@ -93,7 +93,7 @@ get_header();
 					}
 
 					if(is_search()) { ?>
-					<div class="col-lg-6">
+					<div class="col-lg-6 col-md-6 col-sm-6 col-12">
 					<?php } 
 
 					the_post();
