@@ -479,8 +479,16 @@ and (min-device-width: 768px)
 and (max-device-width: 1024px)
 and (orientation: landscape)
 and (-webkit-min-device-pixel-ratio: 1) {
-.woocommerce-breadcrumb{
+	.woocommerce-breadcrumb{
 		margin: 10rem 0 0;
+	}
+	.page article .post-inner .entry-content h2{
+		text-align:center;
+	}
+	.page article .post-inner .entry-content a.cta{
+		font-size: 3.5rem;
+		margin: 0 auto 8rem;
+		width: 100% !important;
 	}
 }
 /* iPAD Retina Landscape */
@@ -492,7 +500,14 @@ and (-webkit-min-device-pixel-ratio: 2) {
 	.woocommerce-breadcrumb{
 		margin: 10rem 0 0;
 	}
-
+	.page article .post-inner .entry-content h2{
+		text-align:center;
+	}
+	.page article .post-inner .entry-content a.cta{
+		font-size: 3.5rem;
+		margin: 0 auto 8rem;
+		width: 100% !important;
+	}
 }
 /* iPad 1-4 e Mini Portrait */
 @media only screen

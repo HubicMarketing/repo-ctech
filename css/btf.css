@@ -641,6 +641,9 @@ and (min-device-width: 768px)
 and (max-device-width: 1024px)
 and (orientation: landscape)
 and (-webkit-min-device-pixel-ratio: 1) {
+  .header-inner.section-inner img.logo{
+        height: 50px;
+  }
 	.page:not(.page-id-27) article .post-inner .entry-content p{
 	   max-width: 100rem !important;
 	}
@@ -650,7 +653,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
 	}
   .home #soluzioni h2{
     padding:0;
-    margin-top:0;
+    margin: 0 0 2rem;
   }
 }
 
@@ -750,10 +753,9 @@ and (orientation: landscape){
   .page:not(.page-id-27) article .post-inner .entry-content p{
 	   max-width: 100rem !important;
 	}
-
-  	#form h2{
+  #form h2{
 	  width: 80%;
-      text-align: center;
+    text-align: center;
 	}
   .home .screen-height{
     min-height: inherit;
@@ -855,11 +857,14 @@ and (min-device-width: 768px)
 and (max-device-width: 1024px)
 and (orientation: landscape)
 and (-webkit-min-device-pixel-ratio: 2) {
+  .header-inner.section-inner img.logo{
+        height: 50px;
+  }
   .page:not(.page-id-27) article .post-inner .entry-content p{
 	   max-width: 100rem !important;
 	}  
   .home #soluzioni h2{
-    margin-top:0;
+    margin: 0 0 2rem;
     padding:0;
   }
   	#form h2{
