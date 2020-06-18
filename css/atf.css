@@ -304,6 +304,13 @@ header.entry-header{
 	color: #1B3D42;
 	margin: 5px 0;
 }
+.search article{
+    padding: 3rem 0;
+    margin-bottom: 3rem;
+}
+.search article:hover{
+    box-shadow: 0px 0px 14px 1px #ccc;
+}
 .search .post-inner .entry-content figure img{
 	margin:0 auto;
 }
