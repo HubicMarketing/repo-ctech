@@ -672,9 +672,25 @@ and (min-device-width: 1024px)
 and (max-device-width: 1366px)
 and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: portrait){
+  
+	.home #soluzioni h2{
+		padding:0;
+	}
   #soluzioni h3{
     font-size: 3.5em;
     text-transform:none;
+  }
+  #soluzioni .heading_wrapper a.cta{
+     font-size: 3rem;
+  }
+  #soluzioni button.cta {
+    font-size: 1.8em;
+    padding-top: 30px;
+    padding-bottom: 28px;
+    border-radius: 0;
+  }
+  .company_info a.cta{
+        font-size: 3.5rem;
   }
 	.page:not(.page-id-27) article .post-inner .entry-content p{
 	   max-width: 100rem !important;
@@ -792,11 +808,12 @@ and (-webkit-min-device-pixel-ratio: 2){
   #soluzioni .media .img_wrapper{
     padding: 50% 0 0 0;
   }
-  #soluzioni button.cta{
-    font-size: 1.2em;
-    padding-top: 25px;
-    padding-bottom: 25px;
-  }
+  #soluzioni button.cta {
+    font-size: 1.8em;
+    padding-top: 30px;
+    padding-bottom: 28px;
+    border-radius: 0;
+}
   #punti_di_forza figure figcaption h3{
     font-size: 2rem;
     margin-top: 30px;
