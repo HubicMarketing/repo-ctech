@@ -508,6 +508,20 @@ and (-webkit-min-device-pixel-ratio: 2){
     	padding: 35px 50px !important;
 		text-transform: uppercase;
 	}
+	.primary-menu a{
+		text-transform:none;
+	}
+	.page article .post-inner .entry-content h2{
+		text-align:center;
+	}
+	.page article .post-inner .entry-content a.cta{
+		font-size: 3.5rem;
+		margin: 0 auto 8rem;
+		width: 100% !important;
+	}
+	.woocommerce ul li.product span.price{
+		padding:10px;
+	}
 }
 /*Portrait and landscape iPad Pro*/
 @media only screen
@@ -537,6 +551,9 @@ and (orientation: portrait){
 		font-size: 3.5rem;
 		margin: 0 auto 8rem;
 		width: 100% !important;
+	}
+	.woocommerce ul li.product span.price{
+		padding:10px;
 	}
 }
 /*Landscape iPad Pro*/
