@@ -304,15 +304,14 @@ header.entry-header{
 	color: #1B3D42;
 	margin: 5px 0;
 }
-.search .psot-inner .entry-content figure img{
+.search .post-inner .entry-content figure img{
 	margin:0 auto;
 }
-.search .psot-inner .entry-content figcaption{
+.search .post-inner .entry-content figcaption{
 	text-align:center;
 }
-
 .woocommerce ul li.product a.button,
-.search .psot-inner .entry-content figcaption a.button{
+.search .post-inner .entry-content figcaption a.button{
 	margin-top: 20px;
 	font-size: 2.5rem;
 	font-weight: bold;
