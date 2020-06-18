@@ -359,6 +359,9 @@ header.entry-header{
 .color-accent{
 	color:#1B3D42 !important;
 }
+.search-no-results .archive-header{
+	padding: 8rem 0 3rem;
+}
 
 /** RESPONSIVE **/
 @media screen and (min-width: 1441px){

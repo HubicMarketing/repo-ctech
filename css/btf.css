@@ -164,7 +164,7 @@ form p{
   margin: 0;
   line-height: 47px !important;
 }
-form input:not(.wpcf7-submit),
+.page:not(.search-no-results) form input:not(.wpcf7-submit),
 form select,
 form textarea{
   width: 100%;
