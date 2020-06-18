@@ -390,7 +390,6 @@ header.entry-header{
 	}
 	.page:not(.page-id-27) article .post-inner .entry-content p{
 		max-width: 68rem !important;
-		/* text-align: justify; */
 	}
 	.page article .post-inner .entry-content a.cta{
 		  text-align: center;
@@ -484,14 +483,24 @@ and (min-device-width: 768px)
 and (max-device-width: 1024px)
 and (orientation: landscape)
 and (-webkit-min-device-pixel-ratio: 2) {
-
+	.page:not(.page-id-27) article .post-inner .entry-content p{
+	   max-width: 100rem !important;
+	}
+	#form h2{
+	  width: 80%;
+      text-align: center;
+	}
 }
 /* iPad 1-4 e Mini Portrait */
 @media only screen
 and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : portrait){
-
+	.tp-caption.cta{
+		font-size: 4rem !important;
+    	padding: 35px 50px !important;
+		text-transform: uppercase;
+	}
 }
 /* Retina iPad in portrait */
 @media only screen
@@ -499,7 +508,11 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : portrait)
 and (-webkit-min-device-pixel-ratio: 2){
-
+	.tp-caption.cta{
+		font-size: 4rem !important;
+    	padding: 35px 50px !important;
+		text-transform: uppercase;
+	}
 }
 /*Portrait and landscape iPad Pro*/
 @media only screen
@@ -514,7 +527,11 @@ and (min-device-width: 1024px)
 and (max-device-width: 1366px)
 and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: portrait){
-
+	.tp-caption.cta{
+		font-size: 4rem !important;
+    	padding: 35px 50px !important;
+		text-transform: uppercase;
+	}
 }
 /*Landscape iPad Pro*/
 @media only screen
@@ -522,7 +539,13 @@ and (min-device-width: 1024px)
 and (max-device-width: 1366px)
 and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: landscape){
-
+	.page:not(.page-id-27) article .post-inner .entry-content p{
+	   max-width: 100rem !important;
+	}
+	#form h2{
+	  width: 80%;
+      text-align: center;
+	}
 }
 @media screen and (min-width: 768px){
 
