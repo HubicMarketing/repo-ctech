@@ -63,13 +63,14 @@
 					<?php } ?>
 
 					<div class="header-titles">
-<a title="Vai alla homepage" href="<?php bloginfo('wpurl') ?>">
-	<img class="logo" alt="Logo <?php bloginfo('name') ?>" src="<?php bloginfo('wpurl') ?>/images/circular_tech_logo.svg" />
-</a>
-						<?php
+					<?php if (!my_wp_is_mobile()) { ?> 
+						<a title="Vai alla homepage" href="<?php bloginfo('wpurl') ?>">
+							<img class="logo" alt="Logo <?php bloginfo('name') ?>" src="<?php bloginfo('wpurl') ?>/images/circular_tech_logo.svg" />
+						</a>
+					<?php } else {
 							// Site title or logo.
-							//twentytwenty_site_logo();
-
+							twentytwenty_site_logo();
+					}
 							// Site description.
 							// twentytwenty_site_description();
 						?>
