@@ -627,6 +627,16 @@ and (orientation: landscape){
 
 }
 @media (max-width: 767px){
+	input[name="product-name"]{
+		padding:0;
+	}
+	.single-product .entry-summary{
+		text-align:center;
+	}
+	.woocommerce-product-details__short-description{
+		text-align:left;
+	}
+	.single-product .entry-summary
 	.single-product #form{
 		padding:0;
 	}
@@ -645,6 +655,7 @@ and (orientation: landscape){
 	}
 	#site-header{
 		background: #fff !important;
+		background: #f9f9f9 !important;
 	}
 	.header-inner .toggle{
 		color: #1B3D42 !important;
