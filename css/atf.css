@@ -627,7 +627,10 @@ and (orientation: landscape){
 
 }
 @media (max-width: 767px){
-
+	.woocommerce-breadcrumb {
+		margin: 10rem 0 0;
+		text-align: center;
+	}
 	.page #soluzioni {
 		padding-top: 85px;
 	}
