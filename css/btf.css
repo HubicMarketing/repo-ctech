@@ -1027,6 +1027,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
   .company_info p{
     line-height: 1.2;
   }
+  .home #soluzioni h2{
+        margin: 50px 0 20px;
+  }
   #soluzioni .brand_container{
     margin-top:8px;
   }
@@ -1039,6 +1042,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
   }
   #soluzioni button.cta{
     width: 90%;
+    font-weight: bold;
   }
   .company_info a.cta,
   #soluzioni .heading_wrapper a.cta,
@@ -1050,6 +1054,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
   #soluzioni h3{
     width: 80%;
     margin: 0 auto 30px;
+    color:#fff;
   }
   #site-content .post-inner {
     padding-top: 5rem;
