@@ -513,9 +513,6 @@ body .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.ali
 .select2-container{
   z-index: inherit;
 }
-.woocommerce section#form{
-  padding-bottom: 100px;
-}
 
 #mailchimp-top-bar.mctb-medium .mctb-button:hover{
   text-decoration:none !important;
@@ -546,6 +543,10 @@ body .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.ali
 
 }
 @media screen and (min-width: 768px){
+  
+.woocommerce section#form{
+  padding-bottom: 100px;
+}
   .search-modal .search-field{
     font-size: 3.2rem !important;
     height: 14rem !important;
@@ -939,6 +940,19 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 }
 @media (max-width: 767px){
+  ul.products li.product .woocommerce-loop-product__title{
+    text-align:center;
+  }
+  .archive_filters{
+    background: #f9f9f9;
+    padding: 0 15px 40px;
+    margin-bottom: 3rem;
+  }
+  .archive_filters h3{
+    font-size: 2.1rem;
+    margin-bottom: 2rem;
+    display: inline-grid;
+  }
   ul.modal-menu li a{
     color: #1b3d42;
   }
@@ -1010,7 +1024,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
     font-size: 1.4em;
   }
   form input:not(.wpcf7-submit){
-    padding: 20px;
+    /* padding: 20px; */
+        margin-bottom: 10px;
   }
   .ancestor-wrapper{
     text-transform: uppercase;
