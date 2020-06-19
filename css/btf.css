@@ -939,7 +939,12 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 }
 @media (max-width: 767px){
-
+  .single-product .summary.entry-summary{
+    text-align: center;
+  } 
+  .single-product .summary.entry-summary .woocommerce-product-details__short-description{
+    text-align:left;
+  }
   ul.products li.product .woocommerce-loop-product__title{
     text-align:center;
   }
