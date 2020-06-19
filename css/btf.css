@@ -524,7 +524,7 @@ body .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.ali
     font-size: 3.2rem !important;
     height: 14rem !important;
   }
-  
+
 /** RESPONSIVE **/
 @media screen and (min-width: 1441px){
 
@@ -940,6 +940,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 }
 @media (max-width: 767px){
+  #economia_circolare .translated p{
+    font-size: 1.7rem;
+    line-height: 1.7;
+  }
   .page-id-8 .post-inner a.cta{
 		text-align: center;
     font-weight: bold;
