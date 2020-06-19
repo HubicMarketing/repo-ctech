@@ -627,9 +627,7 @@ and (orientation: landscape){
 
 }
 @media (max-width: 767px){
-	input[name="product-name"]{
-		padding:0;
-	}
+	
 	.single-product .entry-summary
 	.single-product #form{
 		padding:0;

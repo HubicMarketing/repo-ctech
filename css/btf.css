@@ -939,6 +939,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 }
 @media (max-width: 767px){
+  .single-product input[name="product-name"]{
+		padding:0;
+	}
   .single-product .summary.entry-summary{
     text-align: center;
   } 
@@ -1009,6 +1012,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
   }
   .single-product #form{
     display: inherit;
+    padding:0;
+  }
+  .single-product #form > .container{
+        padding: 0;
   }
   .single-product #form .form_title_wrapper h2{
     width: 80vw;
