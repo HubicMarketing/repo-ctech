@@ -540,10 +540,12 @@ body .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.ali
 
 }
 @media screen and (min-width: 768px){
-  
-.woocommerce section#form{
-  padding-bottom: 100px;
-}
+  .single-product .summary.entry-summary{
+    text-align: left;
+  } 
+  .woocommerce section#form{
+    padding-bottom: 100px;
+  }
   .search-modal .search-field{
     font-size: 3.2rem !important;
     height: 14rem !important;
@@ -937,9 +939,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 }
 @media (max-width: 767px){
-  .single-product .summary.entry-summary{
-    text-align: left;
-  } 
+
   ul.products li.product .woocommerce-loop-product__title{
     text-align:center;
   }
