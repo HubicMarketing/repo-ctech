@@ -627,6 +627,12 @@ and (orientation: landscape){
 
 }
 @media (max-width: 767px){
+	.single-product #form{
+		padding:0;
+	}
+	.single-product .woocommerce-Price-amount.amount, .single-product .rent_price p strong, .single-product p.rent{
+		font-size:3rem;
+	}
 	.woocommerce-breadcrumb {
 		margin: 10rem 0 0;
 		text-align: center;

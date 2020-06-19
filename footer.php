@@ -15,7 +15,9 @@
 ?>
 
 <?php if(is_woocommerce() || is_cart() || is_checkout() ) {
-	include( get_stylesheet_directory() . '/include/form.php');
+	if(!is_product()) {
+		include( get_stylesheet_directory() . '/include/form.php');
+	}
 	include( get_stylesheet_directory() . '/woocommerce/woo-menu-widgets.php');
 } ?>
 
