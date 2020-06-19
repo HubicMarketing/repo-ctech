@@ -644,6 +644,9 @@ and (orientation: landscape){
 	body.page:not(.page-id-24) #soluzioni {
 		padding-top: 85px;
 	}
+	.page.page-id-24 #soluzioni {
+		padding-top: 0;
+	}
 	.bg_white .search-toggle{
 		color: #1B3D42 !important;
 	}
