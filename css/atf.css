@@ -135,6 +135,13 @@ ul.primary-menu li a:hover{
     -o-transform: translate(0,0);
     transform: translate(0,0);
 }
+.page-id-8 .contattaci.visible{
+	  -webkit-transform: translate(0,0);
+    -moz-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    -o-transform: translate(0,0);
+    transform: translate(0,0);
+}
 .contattaci .top_cta{
 	/* text-transform: uppercase; */
 }
