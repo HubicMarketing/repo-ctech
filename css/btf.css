@@ -1067,7 +1067,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
   #form{
     padding:0;
   }
-  .footer-widgets .row .widget-content{
+  .footer-widgets-outer-wrapper .row .widget-content{
     margin: 15px 0;
   }
 }
