@@ -940,6 +940,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 }
 @media (max-width: 767px){
+ 
   #economia_circolare .translated p{
     font-size: 1.7rem;
     line-height: 1.7;
@@ -1121,6 +1122,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
   #site-content .post-inner {
     padding-top: 0;
     font-size: 1.4rem;
+  }
+  .home #site-content .post-inner{
+    padding-top:8rem;
   }
   #punti_di_forza figure figcaption h3{
     line-height: 1.5;
