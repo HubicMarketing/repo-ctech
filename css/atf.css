@@ -405,6 +405,9 @@ header.entry-header{
 
 }
 @media screen and (min-width: 768px){
+	.contattaci.visible{
+		padding: 20px 0;
+	}
 	.page #soluzioni{
 		padding-top:0;
 	}
@@ -624,9 +627,7 @@ and (orientation: landscape){
 
 }
 @media (max-width: 767px){
-	.contattaci.visible{
-		padding: 20px 0;
-	}
+
 	.page #soluzioni {
 		padding-top: 85px;
 	}
