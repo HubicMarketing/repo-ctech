@@ -939,6 +939,11 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 }
 @media (max-width: 767px){
+  .page-id-8 .post-inner a.cta{
+		text-align: center;
+    font-weight: bold;
+    font-size: 1.8rem;
+	}
   #economia_circolare{
     padding:0;
   }
@@ -1103,8 +1108,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
     color:#fff;
   }
   #site-content .post-inner {
-    padding-top: 5rem;
-    font-size: 1.5rem;
+    padding-top: 0;
+    font-size: 1.4rem;
   }
   #punti_di_forza figure figcaption h3{
     line-height: 1.5;
