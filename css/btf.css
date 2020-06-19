@@ -523,7 +523,7 @@ body .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.ali
 }
 
 .footer-widgets-outer-wrapper{
-  border:none;
+  border:none !important;
 }
 
 /** RESPONSIVE **/
