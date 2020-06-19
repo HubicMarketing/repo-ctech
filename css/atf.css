@@ -58,9 +58,7 @@ button.cta{
   font-weight: normal;
   padding: 20px 60px;
 }
-.page #soluzioni{
-	padding-top:0;
-}
+
 #soluzioni a{
   color: #000 !important;
 }
@@ -408,6 +406,9 @@ header.entry-header{
 
 }
 @media screen and (min-width: 768px){
+	.page #soluzioni{
+		padding-top:0;
+	}
 	body.home #site-header.bg_white,
 	#site-header.bg_white{
 		background: #fff !important;
@@ -624,6 +625,9 @@ and (orientation: landscape){
 
 }
 @media (max-width: 767px){
+	.page #soluzioni {
+		padding-top: 85px;
+	}
 	.bg_white .search-toggle{
 		color: #fff !important;
 	}
