@@ -520,6 +520,11 @@ body .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.ali
   border:none !important;
 }
 
+  .search-modal .search-field{
+    font-size: 3.2rem !important;
+    height: 14rem !important;
+  }
+  
 /** RESPONSIVE **/
 @media screen and (min-width: 1441px){
 
@@ -545,10 +550,6 @@ body .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.ali
   } 
   .woocommerce section#form{
     padding-bottom: 100px;
-  }
-  .search-modal .search-field{
-    font-size: 3.2rem !important;
-    height: 14rem !important;
   }
   .home article .post-inner .entry-content a.cta{
 		text-align: center;
