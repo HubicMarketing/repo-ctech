@@ -9,8 +9,8 @@
 
 ?>
 
-<?php if(is_front_page() && !my_wp_is_mobile()) {
-		echo do_shortcode('[rev_slider alias="slider_home"]');
+<?php if(is_front_page()) {
+		if(!my_wp_is_mobile()) { echo do_shortcode('[rev_slider alias="slider_home"]'); }
 		include( get_stylesheet_directory() . '/include/home/sezioni.php');
 	}
 ?>
