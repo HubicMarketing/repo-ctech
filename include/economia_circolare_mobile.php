@@ -1,7 +1,7 @@
 <?php $economia_circolare = 'economia_circolare';
 if( have_rows($economia_circolare) ): ?>
 <section id="economia_circolare">
-  <!-- <div class="container"> -->
+  <div class="container">
     <?php $count = 0; $delay_count = 1; while( have_rows($economia_circolare) ): the_row(); $count++;
     $delay_count++; $double_delay_count = $delay_count * 1000;
     $descrizione = get_sub_field('descrizione');
@@ -23,7 +23,7 @@ if( have_rows($economia_circolare) ): ?>
 
   </div><!--row-->
   <?php endwhile; ?>
-  <!-- </div> -->
+  </div>
   <!--container-->
   </section>
   <?php endif; ?>
