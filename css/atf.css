@@ -629,10 +629,13 @@ and (orientation: landscape){
 		padding-top: 85px;
 	}
 	.bg_white .search-toggle{
-		color: #fff !important;
+		color: #1B3D42 !important;
 	}
 	#site-header{
-		background: #000 !important;
+		background: #fff !important;
+	}
+	.header-inner .toggle{
+		color: #1B3D42;
 	}
 	.tp-mask-wrap .tp-caption:not(.cta){
 		padding-left:40px !important;
@@ -650,13 +653,13 @@ and (orientation: landscape){
   .tp-caption.cta{
     font-size: 2em !important;
     padding: 30px 45px 40px 45px !important;
-		/* margin-top: 10px !important; */
-		text-transform: uppercase;
-		border: none !important;
-		font-weight: bold !important;
-		/* border-top: 1px solid #fff !important; */
-		border-radius: 0 !important;
-		padding-left: 0 !important;
+	/* margin-top: 10px !important; */
+	text-transform: uppercase;
+	border: none !important;
+	font-weight: bold !important;
+	/* border-top: 1px solid #fff !important; */
+	border-radius: 0 !important;
+	padding-left: 0 !important;
   }
 }
 @media (max-width: 767px) and (orientation:portrait) {
