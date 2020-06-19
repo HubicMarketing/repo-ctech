@@ -626,8 +626,7 @@ and (orientation: landscape){
 @media screen and (min-width: 768px){
 
 }
-@media (max-width: 767px){
-	
+@media (max-width: 767px){	
 	p#breadcrumbs{
 		margin-top: 3rem;
 	}
@@ -642,7 +641,7 @@ and (orientation: landscape){
 		margin: 10rem 0 0;
 		text-align: center;
 	}
-	.page #soluzioni {
+	body.page:not(.page-id-24) #soluzioni {
 		padding-top: 85px;
 	}
 	.bg_white .search-toggle{
