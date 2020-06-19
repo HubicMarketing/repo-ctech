@@ -954,6 +954,11 @@ and (-webkit-min-device-pixel-ratio: 2) {
   #economia_circolare .img_wrapper {
 		padding: 100% 0 0 0;
 	}
+  #economia_circolare .img_wrapper{
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
   #economia_circolare img.translated {
     height: 100%;
     width: auto;
