@@ -1,6 +1,6 @@
 <?php $economia_circolare = 'economia_circolare';
 if( have_rows($economia_circolare) ): ?>
-<section id="economia_circolare" class="animated wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.5s">
+<section id="economia_circolare">
   <!-- <div class="container"> -->
     <?php $count = 0; $delay_count = 1; while( have_rows($economia_circolare) ): the_row(); $count++;
     $delay_count++; $double_delay_count = $delay_count * 1000;
