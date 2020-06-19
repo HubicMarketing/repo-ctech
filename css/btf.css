@@ -950,7 +950,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
   #economia_circolare h2{
     margin:0;
   }
-  #economia_circolare .img_wrapper{
+  #economia_circolare .row > div,
+  #economia_circolare .img_wrapper {
 		padding: 100% 0 0 0;
 	}
   #economia_circolare img.translated {
