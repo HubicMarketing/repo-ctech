@@ -73,11 +73,7 @@ button{
 ul.primary-menu{
   text-transform: uppercase;
 }
-body.home #site-header.bg_white,
-#site-header.bg_white{
-  background: #fff !important;
-  box-shadow: 0 0 10px 0px #aaa;
-}
+
 
 .search-toggle,
 .primary-menu .icon::before, .primary-menu .icon::after{
@@ -412,6 +408,11 @@ header.entry-header{
 
 }
 @media screen and (min-width: 768px){
+	body.home #site-header.bg_white,
+	#site-header.bg_white{
+		background: #fff !important;
+		box-shadow: 0 0 10px 0px #aaa;
+	}
 	.bg_white .search-toggle{
 		color: #1B3D42 !important;
 	}
