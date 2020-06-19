@@ -1027,6 +1027,44 @@ and (-webkit-min-device-pixel-ratio: 2) {
   .company_info p{
     line-height: 1.2;
   }
+  #soluzioni .brand_container{
+    margin-top:8px;
+  }
+  #soluzioni .collection_wrapper .img_wrapper{
+    width: 100%;
+  }
+  .home .entry-content a.cta{
+    width: 100%;
+    text-align: center;
+  }
+  #soluzioni button.cta{
+    width: 90%;
+  }
+  .company_info a.cta,
+  #soluzioni .heading_wrapper a.cta,
+  #soluzioni button.cta,
+  form input.wpcf7-submit, 
+  .single-product a.cta{
+    font-size: initial;
+  }
+  #soluzioni h3{
+    width: 80%;
+    margin: 0 auto 30px;
+  }
+  #site-content .post-inner {
+    padding-top: 5rem;
+    font-size: 1.5rem;
+  }
+  #punti_di_forza figure figcaption h3{
+    line-height: 1.5;
+    font-size: initial;
+  }
+  #form{
+    padding:0;
+  }
+  .footer-widgets .row .widget-content{
+    margin: 15px 0;
+  }
 }
 @media (max-width: 767px) and (orientation:portrait) {
 
