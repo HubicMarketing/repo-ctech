@@ -630,12 +630,6 @@ and (orientation: landscape){
 	input[name="product-name"]{
 		padding:0;
 	}
-	.single-product .entry-summary{
-		text-align:center;
-	}
-	.woocommerce-product-details__short-description{
-		text-align:left;
-	}
 	.single-product .entry-summary
 	.single-product #form{
 		padding:0;

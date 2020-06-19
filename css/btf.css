@@ -344,9 +344,6 @@ form input[name="product-name"]:focus{
   height: 130%;
   width: auto;
 }
-.single-product .summary.entry-summary{
-  text-align: left;
-}
 
 form div[data-id^="group"]{
   width: 100%;
@@ -940,6 +937,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 }
 @media (max-width: 767px){
+  .single-product .summary.entry-summary{
+    text-align: left;
+  } 
   ul.products li.product .woocommerce-loop-product__title{
     text-align:center;
   }
