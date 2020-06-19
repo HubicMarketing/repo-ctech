@@ -17,6 +17,8 @@ $has_sidebar_2 = is_active_sidebar( 'sidebar-2' );
 if(is_page('azienda')) { 
 	if (!my_wp_is_mobile()) {
 		include( get_stylesheet_directory() . '/include/economia_circolare.php'); 
+	} else {
+		include( get_stylesheet_directory() . '/include/economia_circolare_mobile.php'); 
 	}
 }
 	include( get_stylesheet_directory() . '/include/home/punti_di_forza.php');
