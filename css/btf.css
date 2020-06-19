@@ -522,6 +522,10 @@ body .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.ali
   background:#000 !important;
 }
 
+.footer-widgets-outer-wrapper{
+  border:none;
+}
+
 /** RESPONSIVE **/
 @media screen and (min-width: 1441px){
 
