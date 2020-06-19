@@ -38,7 +38,7 @@
 		?>
 
 		<header id="site-header" class="header-footer-group" role="banner">
-				<?php if(!my_wp_is_mobile() && is_page('azienda')) { include( get_stylesheet_directory() . '/include/top_bar.php'); } ?>
+				<?php include( get_stylesheet_directory() . '/include/top_bar.php'); ?>
 			<div class="header-inner section-inner">
 				<div class="header-titles-wrapper">
 
