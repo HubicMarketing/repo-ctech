@@ -128,7 +128,6 @@ ul.primary-menu li a:hover{
   color: #52C3B3;
 }
 .contattaci.visible{
-	padding: 20px 0;
 	margin-bottom: 0;
   -webkit-transform: translate(0,0);
     -moz-transform: translate(0,0);
@@ -625,6 +624,9 @@ and (orientation: landscape){
 
 }
 @media (max-width: 767px){
+	.contattaci.visible{
+		padding: 20px 0;
+	}
 	.page #soluzioni {
 		padding-top: 85px;
 	}

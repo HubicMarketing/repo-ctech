@@ -1009,8 +1009,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
   .vantaggi_prodotti figure p{
     font-size: 1.4em;
   }
-  form input:not(.wpcf7-submit),
-  form select{
+  form input:not(.wpcf7-submit){
     padding: 20px;
   }
   .ancestor-wrapper{
