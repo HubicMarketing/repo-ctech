@@ -14,7 +14,11 @@ $has_social_menu = has_nav_menu( 'social' );
 $has_sidebar_1 = is_active_sidebar( 'sidebar-1' );
 $has_sidebar_2 = is_active_sidebar( 'sidebar-2' );
 
-if(is_page('azienda')) { include( get_stylesheet_directory() . '/include/economia_circolare.php'); }
+if(is_page('azienda')) { 
+	if (!my_wp_is_mobile()) {
+		include( get_stylesheet_directory() . '/include/economia_circolare.php'); 
+	}
+}
 	include( get_stylesheet_directory() . '/include/home/punti_di_forza.php');
 if(!is_page(array('contatti','assistenza')) && !is_product()) { include( get_stylesheet_directory() . '/include/form.php'); }
 if(is_page('assistenza')) { include( get_stylesheet_directory() . '/include/form_assistenza.php'); }
