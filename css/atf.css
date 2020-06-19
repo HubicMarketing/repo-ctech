@@ -635,7 +635,7 @@ and (orientation: landscape){
 		background: #fff !important;
 	}
 	.header-inner .toggle{
-		color: #1B3D42;
+		color: #1B3D42 !important;
 	}
 	.tp-mask-wrap .tp-caption:not(.cta){
 		padding-left:40px !important;
