@@ -441,22 +441,22 @@ add_filter( 'mc4wp_subscriber_data', function(MC4WP_MailChimp_Subscriber $subscr
 //     return $content;
 // }
 
-function add_lazyload($content) {
-	$dom = new DOMDocument();
-	@$dom->loadHTML($content);
+// function add_lazyload($content) {
+// 	$dom = new DOMDocument();
+// 	@$dom->loadHTML($content);
 
-	foreach ($dom->getElementsByTagName('img') as $node) {  
-		$oldsrc = $node->getAttribute('src');
-		$node->setAttribute("data-src", $oldsrc );
-		$node->setAttribute("loading", "lazy" );
-		$node->setAttribute("class", "lazyload" );
-		// $newsrc = ''.get_template_directory_uri().'/library/images/nothing.gif';
-		// $node->setAttribute("src", $newsrc);
-	}
-	$newHtml = $dom->saveHtml();
-	return $newHtml;
-}
-add_filter('the_content', 'add_lazyload');
+// 	foreach ($dom->getElementsByTagName('img') as $node) {  
+// 		$oldsrc = $node->getAttribute('src');
+// 		$node->setAttribute("data-src", $oldsrc );
+// 		$node->setAttribute("loading", "lazy" );
+// 		$node->setAttribute("class", "lazyload" );
+// 		// $newsrc = ''.get_template_directory_uri().'/library/images/nothing.gif';
+// 		// $node->setAttribute("src", $newsrc);
+// 	}
+// 	$newHtml = $dom->saveHtml();
+// 	return $newHtml;
+// }
+// add_filter('the_content', 'add_lazyload');
 
 // get_stylesheet_directory_uri() . "/js/lazy-loading.js";
 ?>

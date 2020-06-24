@@ -76,7 +76,7 @@
 	 		<?php if(my_wp_is_mobile() || my_wp_is_tablet()) { ?>
 	 			<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js/tablet_mobile_device.js" defer></script>
 	 		<?php } ?>
-
+<!-- 
 			 <script>
 					document.addEventListener('DOMContentLoaded', function(){
 					if ('loading' in HTMLImageElement.prototype) {
@@ -97,6 +97,6 @@
 						document.body.appendChild(script);
 					}
 					});    
-			 </script>
+			 </script> -->
 	</body>
 </html>
