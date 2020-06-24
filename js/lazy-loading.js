@@ -2,10 +2,10 @@ document.addEventListener('DOMContentLoaded', function(){
   if ('loading' in HTMLImageElement.prototype) {
     const images = document.querySelectorAll("img.lazyload");
     images.forEach(img => {
-      // img.src = img.dataset.src;
-      const source = img.getAttribute('src');
-      img.setAttribute('data-src',source);
-      img.removeAttribute('src');
+      img.src = img.dataset.src;
+      // const source = img.getAttribute('src');
+      // img.setAttribute('data-src',source);
+      // img.removeAttribute('src');
     });
   } else {
     // Dynamically import the LazySizes library
