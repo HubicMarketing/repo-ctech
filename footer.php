@@ -86,6 +86,7 @@
 						const source = img.getAttribute('src');
 						img.setAttribute('data-src',source);
 						img.removeAttribute('src');
+						img.removeAttribute('srcset');
 						});
 					} else {
 						// Dynamically import the LazySizes library
