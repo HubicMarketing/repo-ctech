@@ -441,5 +441,5 @@ function new_content($content) {
     return $content;
 }
 
-get_stylesheet_directory_uri() . "/js/lazy-loading.js";
+// get_stylesheet_directory_uri() . "/js/lazy-loading.js";
 ?>
