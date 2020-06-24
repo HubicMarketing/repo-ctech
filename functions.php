@@ -437,7 +437,7 @@ add_filter( 'mc4wp_subscriber_data', function(MC4WP_MailChimp_Subscriber $subscr
  // ADD ATTRIBUTE ON IMAGE ON LOAD
 add_filter('the_content','new_content');
 function new_content($content) {
-    $content = str_replace('<img','<img loading="lazy" class="lazyload"', $content);
+    $content = str_replace('<img','<img data-src="' . wp_get_attachment_url() . '" loading="lazy" class="lazyload"', $content);
     return $content;
 }
 
