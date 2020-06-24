@@ -451,7 +451,7 @@ function add_lazyload($content) {
 		$node->setAttribute("loading", "lazy" );
 		$node->setAttribute("class", "lazyload" );
 		// $newsrc = ''.get_template_directory_uri().'/library/images/nothing.gif';
-		$node->setAttribute("src", $newsrc);
+		// $node->setAttribute("src", $newsrc);
 	}
 	$newHtml = $dom->saveHtml();
 	return $newHtml;
