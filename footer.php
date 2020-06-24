@@ -85,7 +85,7 @@
 						// img.src = img.dataset.src;
 						const source = img.getAttribute('src');
 						img.setAttribute('data-src',source);
-						img.removeAttribute('src');
+						// img.removeAttribute('src');
 						img.removeAttribute('srcset');
 						});
 					} else {
