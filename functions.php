@@ -440,5 +440,6 @@ function new_content($content) {
     $content = str_replace('<img','<img loading="lazy"', $content);
     return $content;
 }
-include(dirname(__FILE__)."/include/lazy-loading.php");
+
+get_stylesheet_directory_uri() . "/js/lazy-loading.js";
 ?>

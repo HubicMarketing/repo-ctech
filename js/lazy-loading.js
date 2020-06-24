@@ -1,4 +1,4 @@
-<script>
+
     if ('loading' in HTMLImageElement.prototype) {
       const images = document.querySelectorAll("img.lazyload");
       images.forEach(img => {
@@ -12,4 +12,3 @@
         "https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.1.8/lazysizes.min.js";
       document.body.appendChild(script);
     }
-  </script>
