@@ -432,4 +432,12 @@ add_filter( 'mc4wp_subscriber_data', function(MC4WP_MailChimp_Subscriber $subscr
 	$subscriber->tags[] = 'Sito web';
 	return $subscriber;
  });
+
+
+ // ADD ATTRIBUTE ON IMAGE ON LOAD
+add_filter('the_content','new_content');
+function new_content($content) {
+    $content = str_replace('<img','<img loading="lazy"', $content);
+    return $content;
+}
 ?>
