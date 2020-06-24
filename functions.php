@@ -94,6 +94,8 @@ add_action( 'widgets_init', 'twentytwenty_sidebar_registration_child', 15 );
  * Enqueue scripts and styles.
  */
 function wp_bootstrap_4_child_theme_scripts() {
+	wp_register_style( 'bootstrap', get_stylesheet_directory_uri() . '/css/bootstrap.min.css', array(), '1.0', 'all' );
+	wp_enqueue_style( 'bootstrap' );
 	wp_register_style( 'roboto', get_stylesheet_directory_uri() . '/css/roboto.css', array(), '1.0', 'all' );
 	wp_enqueue_style( 'roboto' );
 	wp_register_style( 'roboto-condensed', get_stylesheet_directory_uri() . '/css/roboto-condensed.css', array(), '1.0', 'all' );
