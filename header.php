@@ -19,9 +19,9 @@
 		<link rel="profile" href="https://gmpg.org/xfn/11">
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/bootstrap.min.css">
-		<link href="<?php echo get_stylesheet_directory_uri(); ?>/css/roboto.css" rel="stylesheet">
-		<link href="<?php echo get_stylesheet_directory_uri(); ?>/css/roboto-condensed.css" rel="stylesheet">
-	  <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/atf.css" />
+	<?php /* ?>	<link href="<?php echo get_stylesheet_directory_uri(); ?>/css/roboto.css" rel="stylesheet">
+		<link href="<?php echo get_stylesheet_directory_uri(); ?>/css/roboto-condensed.css" rel="stylesheet"><?php */ ?>
+	    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/atf.css" />
 		<?php wp_head(); ?>
 		<?php
 		$user_agent = $_SERVER['HTTP_USER_AGENT'];
