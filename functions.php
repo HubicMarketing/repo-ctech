@@ -435,11 +435,28 @@ add_filter( 'mc4wp_subscriber_data', function(MC4WP_MailChimp_Subscriber $subscr
 
 
  // ADD ATTRIBUTE ON IMAGE ON LOAD
-add_filter('the_content','new_content');
-function new_content($content) {
-    $content = str_replace('<img','<img data-src="' . wp_get_attachment_url() . '" loading="lazy" class="lazyload"', $content);
-    return $content;
+// add_filter('the_content','new_content');
+// function new_content($content) {
+//     $content = str_replace('<img','<img data-src="' . wp_get_attachment_url() . '" loading="lazy" class="lazyload"', $content);
+//     return $content;
+// }
+
+function add_lazyload($content) {
+	$dom = new DOMDocument();
+	@$dom->loadHTML($content);
+
+	foreach ($dom->getElementsByTagName('img') as $node) {  
+		$oldsrc = $node->getAttribute('src');
+		$node->setAttribute("data-src", $oldsrc );
+		$node->setAttribute("loading", "lazy" );
+		$node->setAttribute("class", "lazyload" );
+		$newsrc = ''.get_template_directory_uri().'/library/images/nothing.gif';
+		$node->setAttribute("src", $newsrc);
+	}
+	$newHtml = $dom->saveHtml();
+	return $newHtml;
 }
+add_filter('the_content', 'add_lazyload');
 
 // get_stylesheet_directory_uri() . "/js/lazy-loading.js";
 ?>
