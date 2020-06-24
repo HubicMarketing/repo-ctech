@@ -2,7 +2,8 @@
     if ('loading' in HTMLImageElement.prototype) {
       const images = document.querySelectorAll("img.lazyload");
       images.forEach(img => {
-        img.dataset.src = img.src;
+        const source = img.getAttribute('src');
+        img.setAttribute('data-src',source);
         img.removeAttribute('src');
       });
     } else {
